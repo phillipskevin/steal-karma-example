@@ -1,0 +1,28 @@
+{
+  "name": "steal-karma-example",
+  "version": "0.0.1",
+  "description": "Example app using Karma with StealJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipskevin/steal-karma-example.git"
+  },
+  "author": "Kevin Phillips <kphillips86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phillipskevin/steal-karma-example/issues"
+  },
+  "homepage": "https://github.com/phillipskevin/steal-karma-example#readme",
+  "dependencies": {
+    "steal": "^0.16.35"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}
