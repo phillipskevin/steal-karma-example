@@ -1,9 +1,14 @@
 window.__karma__.loaded = function() {
-  System.main = 'test/';
+  var s = document.createElement('script');
+  s.setAttribute('src', 'base/node_modules/steal/steal.js');
+  s.setAttribute('main', 'test/');
+  document.head.appendChild(s);
 
-  steal.done().then(function(){
-    if(window.__karma__) {
-      window.__karma__.start();
-    }
-  });
+  s.onload = function () {
+    steal.done().then(function(){
+      if(window.__karma__) {
+        window.__karma__.start();
+      }
+    });
+  };
 };

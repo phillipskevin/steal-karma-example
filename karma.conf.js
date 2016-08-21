@@ -7,7 +7,6 @@ module.exports = function(config) {
       { pattern: 'node_modules/steal/**/*.js', included: false },
       { pattern: 'node_modules/**/package.json', included: false },
       { pattern: 'package.json', included: false },
-      'node_modules/steal/steal.js',
       'karma.bootstrap.js'
     ],
     exclude: [ ],

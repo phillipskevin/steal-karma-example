@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/phillipskevin/steal-karma-example#readme",
   "dependencies": {
-    "steal": "^0.16.35"
+    "steal": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "jasmine": "^2.4.1",
